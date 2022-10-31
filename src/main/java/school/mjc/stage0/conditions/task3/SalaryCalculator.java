@@ -4,7 +4,7 @@ public class SalaryCalculator {
     public void calculateSalary(int salary) {
         double result = 0;
         double taxes = 0;
-        if (salary < 0) {
+        if (salary <= 0) {
             System.out.println("wrong input!");
         } else if (salary <= 10000) {
             taxes = 0.15;
